@@ -1,0 +1,4 @@
+# Chat_App
+Just found this code from my childhood. A simple, CLI based, chat application I developed when I was 15 years old. I was a newbie to the world of programming back then.
+
+The application code is written in C++ and uses 2nd version of WinSock library to create raw socket and to send messages over it. The code is poorly written (Of course it is!) with no concept of modularity. The file 'CHAT_S.cpp' is the server and the other file 'CHAT_C.cpp' is the client. I wrote this code as a side project while my true focus was to create a simulated banking application (The other project in same the repo). I didn't implement multi-threading (as my final exams were closing in) and didn't implement any sort of encryption (as I didn't know what encryption was). wxDevC++ IDE (one of the fork of DevC++project by Bloodshed Software) was used to develop this project.
